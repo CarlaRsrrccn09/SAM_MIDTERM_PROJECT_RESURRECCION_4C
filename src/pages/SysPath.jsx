@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react";
+import profileImage from "../../images/profile.png";
 
 const careerLevels = [
   {
@@ -1293,7 +1294,7 @@ function SysPath() {
         <div className="about-topline"><span>THE PERSON BEHIND THE PORTFOLIO</span><span>2026 / IT CAREER EXPLORATION</span></div>
         <div className="about-content">
           <figure className="about-portrait">
-            <img src="/images/profile.png" alt="Carla, the developer of this career portfolio" />
+            <img src={profileImage} alt="Carla, the developer of this career portfolio" />
             <figcaption>4TH YEAR BSIT · GRADUATING STUDENT</figcaption>
           </figure>
           <div className="about-copy">
